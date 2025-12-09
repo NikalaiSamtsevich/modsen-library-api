@@ -21,6 +21,7 @@ ext {
     set('springCloudVersion', "2023.0.3")
 }
 
+
 dependencies {
     implementation 'io.micrometer:micrometer-tracing-bridge-otel'
     implementation("org.springframework:spring-webflux")
